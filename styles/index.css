@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 50px; 
+    border: 1px solid #000; 
+    margin: 0 10px 10px; 
+    background: #777; 
+    transition : opacity .3s ease;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
